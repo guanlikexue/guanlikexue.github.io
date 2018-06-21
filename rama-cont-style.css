@@ -1,0 +1,32 @@
+body#aa {
+        margin:0 auto;
+        width:640px;}
+
+body#bb {
+        margin:0 auto;
+        width:768px;
+        font-family:georgia,sans-serif,symbol;
+        font-size:121%;}
+
+table   {
+        border:0;
+        width:730px;}
+
+a:link {
+        color: #0000FF;
+        text-decoration: none;}
+
+a:visited {
+        color: #0000FF;}
+
+
+@media screen and (max-device-width: 1125px) { /* iPhone X 的分辨率为: 2435×1125 */
+
+body#aa {
+        margin:0 auto;
+        width:960px;}
+
+table   {
+        border:0;
+        width:auto;}
+}
